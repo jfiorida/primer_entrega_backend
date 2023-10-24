@@ -52,8 +52,10 @@ const productos = new ProductManager();
 console.log(productos.getProduct());
 //añado productos
 productos.addProduct("titulo1","descripcion1", 1000, "imagen1", "abc123", 5);
+
+productos.addProduct("titulo2","descripcion2", 2700, "imagen2", "abc124", 8 );
 //validacion faltante de un campo
-productos.addProduct("titulo2","descripcion2", 2700, "imagen2", "abc124", );
+productos.addProduct("titulo4","descripcion4", 7700, "imagen4", "abc125", 10 );
 //segunda llamada array con producto
 console.log(productos.getProduct());
 //validacion de codigo repetido
